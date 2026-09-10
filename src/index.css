@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-dark: #0a1128;
+  --color-brand-navy: #1c2541;
+  --color-brand-red: #e63946;
+  --color-brand-gold: #f4a261;
+  --color-brand-light: #f8f9fa;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-brand-dark);
+    color: var(--color-brand-light);
+    font-family: "Inter", "Outfit", sans-serif;
+  }
+}
